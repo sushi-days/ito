@@ -1,18 +1,19 @@
 {
-  "name": "ito",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "turbo build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@9.12.3",
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "turbo": "^2.2.3"
-  }
+	"name": "ito",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "turbo build",
+		"format": "biome format --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@9.12.3",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"turbo": "^2.2.3"
+	}
 }
