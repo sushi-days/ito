@@ -1,20 +1,25 @@
 {
-  "name": "backend",
-  "type": "module",
-  "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "seed": "tsx prisma/seed.ts"
-  },
-  "dependencies": {
-    "@hono/node-server": "^1.13.5",
-    "@supabase/supabase-js": "^2.46.1",
-    "hono": "^4.6.9"
-  },
-  "devDependencies": {
-    "@prisma/client": "^5.22.0",
-    "@types/node": "^20.17.6",
-    "prisma": "^5.22.0",
-    "tsx": "^4.19.2",
-    "typescript": "^5.1.6"
-  }
+	"name": "backend",
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch src/index.ts",
+		"seed": "tsx prisma/seed.ts",
+		"format:ci": "biome format",
+		"format": "biome format --write --staged",
+		"lint:ci": "biome lint",
+		"lint": "biome lint --write --staged",
+		"check": "biome check --write --staged"
+	},
+	"dependencies": {
+		"@hono/node-server": "^1.13.5",
+		"@supabase/supabase-js": "^2.46.1",
+		"hono": "^4.6.9"
+	},
+	"devDependencies": {
+		"@prisma/client": "^5.22.0",
+		"@types/node": "^20.17.6",
+		"prisma": "^5.22.0",
+		"tsx": "^4.19.2",
+		"typescript": "^5.1.6"
+	}
 }
