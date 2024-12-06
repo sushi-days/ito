@@ -3,12 +3,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "tsx watch src/index.ts",
-		"seed": "tsx prisma/seed.ts",
-		"format:ci": "biome format",
-		"format": "biome format --write --staged",
-		"lint:ci": "biome lint",
-		"lint": "biome lint --write --staged",
-		"check": "biome check --write --staged"
+		"seed": "tsx prisma/seed.ts"
 	},
 	"dependencies": {
 		"@hono/node-server": "^1.13.5",
