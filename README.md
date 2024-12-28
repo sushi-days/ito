@@ -4,10 +4,10 @@ TODOアプリ
 
 ## 技術構成
 
-### バックエンド
+### フロントエンド
 
 [Remix](https://remix.run/)
 
-### フロントエンド
+### バックエンド
 
 [hono](https://hono.dev/)
